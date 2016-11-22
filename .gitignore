@@ -1,0 +1,6 @@
+node_modules/
+views/
+.project/
+.idea/
+*.exe/
+assets/
