@@ -1,0 +1,51 @@
+.crossband .btn-info-box{
+	position: relative;
+	width:68%;
+	height:28px;
+	margin:4px auto;
+	border:1px solid #ea5404;
+	border-radius: 5px;
+	line-height: 22px;
+	overflow: hidden;
+}
+.crossband .btn-info-box span{
+	position: absolute;
+	display: inline-block;
+	width:33.4%;
+	text-align: center;
+	height:100%;
+	color: #EA5404;
+	padding-top:3px;
+}
+.crossband .btn-info-box span:first-child{
+	left: 0;
+	background-color: #EA5404;
+	color:#fff;
+}
+.crossband .btn-info-box span:nth-child(2){
+	left:33.4%;
+}
+.crossband .btn-info-box span:last-child{
+	left:66.8%;
+	padding-top:0px;
+}
+
+
+
+
+
+
+/*租户*/
+.sub-bg-color{
+	background-color:#15b755;
+}
+.middle-bg-color{
+	background-color: #0193e6;
+}
+.get-agent-bg-color{
+	background-color: #97b715;
+}
+.agent-bg-color{
+	background-color: #ea5404;
+}
+

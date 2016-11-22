@@ -1,0 +1,193 @@
+body{
+	background-color:#efeff4;
+	padding-top:50px;
+}
+
+/*输入框*/
+.text-area{
+	padding:0 22px;
+	border-top:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+	margin-top:42px;
+	background-color:#fff;
+}
+
+/*登录*/
+.text-area label{
+	display: block;
+	height:48px;
+	line-height: 48px;
+	font-size: 1rem;
+	color:#323232;
+	font-weight: bold;
+	border-bottom: 1px solid #e1e1e1;
+}
+.text-area label:last-child{
+	border-bottom: none;
+}
+
+/*注册中选择身份*/
+.text-area label .input{
+	display: inline-block;
+	color: #BFBFBF;
+	font-size: 0.8rem;
+}
+
+/*按钮公共样式*/
+.btn{
+	height:45px;
+	text-align: center;
+	line-height: 45px;
+	color:#fff;
+	font-size:16px;
+	margin-top:20px;
+	border-radius: 10px;
+}
+/*登录按钮*/
+.input-before{
+	background-color:#c7c7c7;
+}
+
+/*按钮激活状态*/
+.input-after{
+	background-color:#ea5404;
+}
+
+
+
+
+/*忘记密码页*/
+/*获取验证码按钮*/
+.btn-get-code{
+	padding:0 4px;
+	height:22px;
+	border-radius: 4px;
+	color:#fff;
+	line-height: 22px;
+	background-color:#ea5404;
+	font-size:0.62rem;
+	margin-top:13px;
+	text-align: center;
+}
+.btn-get-code.active{
+	background-color:#a3a3a3;
+}
+/*验证码*/
+.text-area label .code-input-short{
+	width:100px;
+}
+
+.label-identity-choice{
+	position: relative;
+}
+.label-identity-choice .identity-choice-box{
+	position: absolute;
+	width:64px;
+	top:0;
+	right:0;
+}
+.icon-right-hide{
+	display:inline-block;
+	width:64px;
+	height:8px;
+	background: url(../img/icon-right-hide.png) right center no-repeat;
+	background-size: 13px;
+}
+.icon-right-show{
+	background:url(../img/icon-right-show.png) right center no-repeat;
+	background-size: 13px;
+}
+
+.label-identity-choice ul{
+	border-radius: 4px;
+	overflow: hidden;
+	color:#FFFFFF;
+	text-align: center;
+	margin-top:-10px;
+}
+.label-identity-choice ul li{
+	line-height: 30px;
+	font-size: 0.8rem;
+	background-color:#a3a3a3;
+	margin-bottom: 1px;
+}
+
+/*注册同意协议书*/
+.registration-agreement{
+	text-decoration: underline;
+	color:#ea5404;
+}
+
+/*注册完成后完善身份信息*/
+.perfect-info{
+	height:30px;
+	line-height: 30px;
+	color:#b4b4b4;
+}
+.line{
+	width:120px;
+	height:1px;
+	background:#e1e1e1;
+}
+.perfect-information-box{
+	background:#fff; 
+	font-size: 0.6rem;
+	border-radius: 4px;
+	padding:10px;
+}
+.perfect-information-box input[type='text']{
+	width:100%;
+	height:100%;
+	background-color:#efeff4;
+	padding:0 10px;
+}
+.perfect-information-box .addHead{
+	width:65px;
+	height:65px;
+	border-radius: 50%;
+	line-height: 65px;
+	text-align: center;
+	background-color:#878787;
+	color:#fff;
+}
+.perfect-information-box label{
+	display: block;
+	width:230px;
+	height:30px;
+	line-height: 30px;
+	border:1px solid #ccc;
+	margin-bottom: 5px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.perfect-information-box ul li{
+	float:left;
+	display: inline-block;
+	width:30%;
+	height:62px;
+	margin-right: 5%;
+	background-color:#878787;
+	text-align: center;
+	line-height: 62px;
+	color:#fff;
+	border-radius: 6px;
+	margin-top:20px;
+}
+.perfect-information-box .oneli{
+	width:30%;
+	height:62px;
+	background-color:#878787;
+	text-align: center;
+	line-height: 62px;
+	color:#fff;
+	border-radius: 6px;
+	
+}
+
+.perfect-information-box ul li:last-child{
+	margin-right: 0px;
+}
+
+
+
+

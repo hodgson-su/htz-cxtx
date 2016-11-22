@@ -1,0 +1,149 @@
+body{
+	padding-top:50px;
+	padding-bottom: 50px;
+	color: #7F7F7F;
+}
+
+.release-require{
+	display: block;
+	width: 88%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-top:5px;
+}
+.release-require input{
+	width:100%;
+	height:42px;
+	line-height: 42px;
+}
+
+.release-require textarea{
+	width: 100%;
+	height:100px;
+}
+
+/*房源简介*/
+/*搜索*/
+.inventory-search .nav-search{
+	color: #323232;
+	width:60%;
+	height:32px;
+	line-height: 32px;
+	border:1px solid #CCCCCC;
+	border-radius: 4px;
+	background:url(../img/banner_icon_search@2x.png) 8% center no-repeat #fff;
+	background-size: 13px;
+	padding-left: 10%;
+}
+
+.building-information{
+	padding:15px 0;
+	background-color:#fff;
+	margin-top:15px;
+	font-size:0.5rem;
+}
+.building-information .tit{
+	margin-bottom: 3.5px;
+}
+.building-information label{
+	width: 100%;
+	display: block;
+	color:#7f7f7f;
+}
+.building-information label span{
+	display: inline-block;
+	color:#7f7f7f;
+	width:55px;
+	font-size:0.5rem;
+	text-align: right;
+	height: 18px;
+	line-height: 18px;
+}
+.box01 label input{
+	width:78%;
+	font-size:0.46rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.building-information .choice-radio label{
+	display: inline;
+}
+.choice-content{
+	width:94%;
+	margin-top:4px;
+	color:#727272;
+	font-size:0.5rem;
+}
+
+.box02 label{
+	margin-top:4px;
+	line-height: 30px;
+}
+.box02 label input{
+	height:26px;
+	border:1px solid #CCCCCC;
+	border-radius: 4px;
+	margin-left: 4px;
+}
+.box02 label .input-short{
+	width:34%;
+}
+.box02 label select{
+	width:70%;
+	color:#707071;
+	border:1px solid #CCCCCC;
+	height: 26px;
+	border-radius: 4px;
+}
+.box02 label select option{
+	color:#707071;
+}
+.box02 label .input-get-short{
+	width:20%;
+}
+.box02 label textarea{
+	width:100%;
+	height: 100px;
+	border:1px solid #CCCCCC;
+	border-radius: 4px;
+}
+.building-information .add-img{
+	float: left;
+	width:74px;
+	height: 74px;
+	background:url(../img/content_plus_icon@2x.png) center center no-repeat #d4d4d9;
+	line-height: 120px;
+	text-align: center;
+}
+
+.btn-require-input{
+	width: 100%;
+	margin-top:20px;
+	background-color:#ea5404;
+	border-radius: 4px;
+	color:#FFFFFF;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.radio-box{
+	position: relative;
+	display: inline-block;
+	width:7px;
+	height:7px;
+	border:1px solid #eb590b;
+	border-radius: 50%;
+}
+.radio-box .radio-checked{
+	position: absolute;
+	top:2px;
+	left: 2px;
+	display: inline-block;
+	width:3px;
+	height:3px;
+	background-color:#EB590B;
+}
+
+

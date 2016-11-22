@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>天下房源 | 杭州瑞烁网络科技股份有限公司</title>
+    	<meta name="keywords" content="杭州瑞烁网络科技股份有限公司">
+    	<meta name="description" content="杭州瑞栎网络科技有限公司成立于2015年是一家专注于专业市场电子商务公司
+杭州瑞栎网络科技有限公司成立于2015年， 公司主要经营教育软件 多媒体技术 游戏软件 计算机数据处理技术 计算机系统集成 教育信息咨询，公司秉承与客户共赢理念，为企业提供高效、务实的互联网营销服务，在专业市场的电子商务建设领域具有独特优势和丰富经验。">
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+		<!--公用文件引入-->
+		<link href="../assets/css/reset.css" type="text/css" rel="stylesheet">
+		<link href="../assets/css/public.css" type="text/css" rel="stylesheet">
+		
+		<!--引入预约css文件-->
+		<link href="../assets/css/My.css" type="text/css" rel="stylesheet">
+	
+		<style>
+			.img-logo{
+				width:100px;
+				margin:44px auto;
+			}
+			.img-logo .logo-top{
+				width:73px;
+				height:73px;
+				background: url(../assets/img/content_img_logo@2x.png) no-repeat;
+				background-size:73px;
+			}
+			.img-logo .logo-bottom{
+				margin-top:4px;
+				padding-left: 52px;
+				background:url(../assets/img/content_text_logo@2x.png) left center no-repeat;
+				background-size:50px;
+				font-size: 0.625rem;
+			}
+			
+			.demand .bg-color-orange{
+				position: absolute;
+				top:72px;
+				right: 15px;
+				display: inline-block;
+				width:50px;
+				height:30px;
+				border-radius: 15px;
+				background-color: #ea5404;
+			}
+			.demand .bg-color-gray{
+				background-color:#b5b5b5;
+			}
+			.demand .icon-choice{
+				display: inline-block;
+				width:29px;
+				height:29px;
+				background:url(../assets/img/icon_press_demand.png) no-repeat;
+				background-size: 29px;
+			}
+			
+			.exit{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="setting">
+			<div class="crossband">
+				<div class="content">
+					<div class="left back"><img src="../assets/img/nav_back_icon@2x.png"></div>
+					<span>设置</span>
+				</div>
+			</div>
+			
+			<div class="label clearfix demand">
+				<span class="left">接收需求</span>
+				
+				<span class="right bg-color-orange">
+					<span class="icon-choice"></span>
+				</span>
+			</div>
+			<div class="label clearfix btn-setting-about">
+				<span class="left">关于</span>
+				<i class="right content_list_right_icon"></i>
+			</div>
+			<div class="label clearfix">
+				<span class="left">清除缓存</span>
+				<i class="right content_list_right_icon"></i>
+				<span class="right">7.02M</span>
+			</div>
+			
+			<div class="label exit">
+				退出登录
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="setting-about" style="display: none">
+			<div class="crossband">
+				<div class="content">
+					<div class="left back"><img src="../assets/img/nav_back_icon@2x.png"></div>
+					<span>关于</span>
+				</div>
+			</div>
+			
+			<div class="img-logo">
+				<div class="logo-top"></div>
+				<div class="logo-bottom">v1.0.0</div>
+			</div>
+			
+			<div class="label clearfix">
+				<span class="left">电话</span>
+				<i class="right content_list_right_icon"></i>
+				<span class="right">021-68547845</span>
+			</div>
+			<div class="label clearfix">
+				<i class="right content_list_right_icon"></i>
+				<span class="right">服务条款</span>
+			</div>
+		</div>
+
+		<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+		<script src="../assets/js/public.js"></script>
+		<script>
+			$('.demand').click(function(){
+				if($('.icon-choice').css('float') == 'right'){
+					$('.icon-choice').css('float','none');
+					$('.demand .left').text('接收需求');
+					$('.bg-color-orange').removeClass('bg-color-gray');
+				}else{
+					$('.icon-choice').css('float','right');
+					$('.demand .left').text('不接收需求');
+					$('.bg-color-orange').addClass('bg-color-gray');
+				}
+				
+			})
+			
+			$('.btn-setting-about').click(function(){
+				$('.setting').hide();
+				$('.setting-about').show();
+			})
+			
+		</script>
+	</body>
+</html>
