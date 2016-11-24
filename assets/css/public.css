@@ -287,8 +287,8 @@ i{
 }
 /*单确认框，只有确定一个*/
 .info-box .btn-require{
-	height:86px;
-	line-height: 86px;
+	height:60px;
+	line-height: 60px;
 }
 /*双确认框，取消/确认*/
 .info-box .btn-require .btn-cancel,

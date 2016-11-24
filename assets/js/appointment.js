@@ -104,7 +104,7 @@ $(function(){
 		$('.mask').show();
 		$('#cancel-success').show();
 		$('#cancel-success .btn-require').click(function(){
-			location.href = '../views/appointment.html';
+			location.href = './appointment.html';
 		})
 	})
 })

@@ -1,7 +1,7 @@
 {
   "name": "house",
   "version": "1.0.0",
-  "description": "* 下载\r   - `git clone http://github.com/guanjp/autoproject.git`",
+  "description": "* 下载\r   - `git clone http://github.com/htz4004/htz-zxtx.git`",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
