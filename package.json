@@ -1,7 +1,11 @@
 {
   "name": "house",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "* 下载\r   - `git clone http://github.com/htz4004/htz-zxtx.git`",
+=======
+  "description": "* 下载\r   - `git clone https://github.com/htz4004/htz-cxtx.git`",
+>>>>>>> 0c813b8ab4ed1d59d9bab572be173c24a479d225
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
