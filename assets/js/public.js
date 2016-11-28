@@ -26,7 +26,7 @@ $(function(){
 	});
 	
 	$('#bottom-nav-bar span').eq(4).click(function(){
-		location.href = '../My/My.html';
+		location.href = '../my/My.html';
 	});
 	
 	//关于发布
